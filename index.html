@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow:wght@100&family=Dosis:wght@600&family=Kanit:wght@100&family=Oswald&family=Poiret+One&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Hi, I'm Varshaa!</title>
+</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href = "#About-Me">About Me</a></li>
+                    <li><a href = "#Projects">Projects</a></li>
+                    <li><a href = "#Experience">Experience</a></li>
+                    <li><a href = "#Contact-Me">Contact Me</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 id = "name">Hi, I'm <b>Varshaa.</b></h1>
+            <div class = "intro_section">
+                <img class = "my_face" src="images/headshot.PNG" alt = "Varshaa's face"/> 
+                <h4 class = "intro">
+                    I'm an undergraduate student from Richmond Hill, Canada and I'm currently in my 
+                    first year of Software Engineering at the University of Waterloo.
+                    From my childhood devotion to reading fantasy novels, to my love for music, to my passion for
+                    crocheting, I've always had a thing for creativity. As an aspiring software engineer I hope to pair my creativity 
+                    with my passion for graphic design and web development.
+                </h4>
+            </div>
+        </section>
+        <!-- <section>
+            <h2 id = "About-Me">About Me</h2>
+            <hr></hr>
+        </section> -->
+        <section class = "projects-section-alt">
+            <h2 id = "Projects">Projects</h2>
+            <hr></hr>
+            <div class = "project-section">
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/zomies.jpg" alt = "Ninja Zoomies"/> 
+                            <h4>Ninja Zoomies</h4>
+                            <p class = "project-description">A 2D Multiplayer Platformer Game made with Unity</p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>Ninja Zoomies</h4> -->
+                            <p class = "project-description">Ninja Zoomies is a 2D Multiplayer Platformer game where 
+                                up to 4 players race against each other to be the first to reach the end of the map.
+                                Along the way, there are obstacles, as well as power-ups that users can pick up to help them reach the end or even slow down
+                                other players.
+                            </p>
+                            <p class = "project-description">Ninja Zoomies was made for the 2020 Durjam Hackathon and 
+                                was awarded <b>first prize!</b>
+                            </p>
+                            <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=-DTPI1vvEeI">Click for Video Demo!</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/ASL.jpg" alt = "Hand Signal Translator"/> 
+                            <h4>ASL Hand Signal Translator</h4>
+                            <p class = "project-description">A translator that captures images of ASL hand signals
+                                and translates them into letters.
+                            </p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>ASL Hand Signal Translator</h4> -->
+                            <p class = "project-description">The ASL Translator, Ephphatha, is a translator which is able to recognize ASL hand signals of the English alphabet from an image, and translate
+                                those signals into written letters. Ephphatha was built using a Raspberry Pi and a machine learning model. The images are captured by the Raspberry Pi camera and the output letter
+                                is displayed on a Flask webapp.
+                            </p>
+                            <p class = "project-description">This project was created by 5 Software Engineering students from the University
+                                of Waterloo.
+                            </p>
+                            <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=Kypr42PMlr0">Click for Video Demo!</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/woebot.jpg" alt = "Woebot"/> 
+                            <h4>Mental Health Chatbot</h4>
+                            <p class = "project-description">A chatbot which provides users with
+                            mental health advice.
+                            </p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>ASL Hand Signal Translator</h4> -->
+                            <p class = "project-description">The Mental Health Chatbot project consisted of 3 chatbots, all able to interact 
+                                with a user and provide mental healh advice. Models used included an ELIZA-based model, a Seq2Seq model made up of 2 LSTMs, 
+                                and a SOTA model. The chatbot was able to hold a simple conversation with the user by responding to questions 
+                                and providing advice.
+                            </p>
+                            <p class = "project-description">This project was created as part of the InspiritAI program.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id = "Experience">Experience</h2>
+            <hr></hr>   
+            <h4>Pengpuff Crochets | <em>Self-Employed</em></h4>
+            <p class = "pengpuff-info">At the start of the pandemic, I launched my long-time passion project;
+                a crochet pattern shop. 
+            </p>
+            <p class = "pengpuff-info">As co-founder, and now the sole owner of the shop, I've designed social media posts on 
+                various social media platforms including Instagram, Pinterest, Facebook, and Tiktok. At the same time, I've committed
+                hours to researching and implementing marketing strategies to boost social media engagement, reach, and customer sales.
+                In just the first year of opening the shop, we sold over 30 patterns, and increased
+                our social media following by 500%!
+            </p>
+            <!-- <h3><em>Photo Slideshow</em></h3> -->
+            <!-- photo slideshow :grimacing: -->
+            <section class="slideshow-section">
+                <div id = "photo-slideshow">
+                    <figure>
+                        <img src="images/cannoli_snake.png" alt = "Crochet Cannoli Snake"/> 
+                        <img src="images/cat_tart.png" alt = "Crochet Cat Tart"/> 
+                        <img src="images/turtle_keychain.png" alt = "Crochet Macaron Turtle Keychain"/> 
+                        <img src="images/roll_snail.png" alt = "Crochet Swiss Roll Snail"/> 
+                        <img src="images/octo_dango.png" alt = "Crochet Octopus Dango"/> 
+                        <img src="images/monster.png" alt = "Crochet Chocolate Monster"/> 
+                        <img src="images/bat.png" alt = "Crochet Superhero Bat"/> 
+                        <img src="images/dolls.png" alt = "Crochet Set of 5 Dolls"/> 
+                        <img src="images/apple-doll.png" alt = "Crochet Green Apple Doll"/> 
+                        <img src="images/pear-bear.png" alt = "Crochet Pear Bear"/> 
+
+                    </figure>
+                </div>
+            </section>
+            <div class="other-exp">
+                <div class="exp-card">
+                    <div class="img-contain">
+                        <img class = "exp-pic" src="images/headshot.PNG" alt = "Varshaa's face"/> 
+                    </div>
+                    <div class="text">
+                        <h4 class = "exp-titles">Aquatic Volunteering</h4>
+                        <p class = "experience-info">
+                            As an avid swimmer in my early years, I began volunteering as a pool receptionist before being an 
+                            aquatic volunteer at my local pool. As a receptionist, I managed the swimming attendance lists, provided assistance to visitors,
+                            and managed ticket sales for community centre events. As an aquatic volunteer, I had the opportunity 
+                            to work with students first-hand and help them build on their aquatic skills. 
+                        </p>
+                    </div> 
+                </div>
+                <div class="exp-card">
+                    <div class="img-contain">
+                        <img class = "exp-pic" src="images/headshot.PNG" alt = "Varshaa's face"/> 
+                    </div>
+                    <div class="text">
+                        <h4 class = "exp-titles">RHPL Teen Advisory Group Member</h4>
+                        <p class="experience-info">
+                            Prior to COVID-19, I was a member of the Richmond Hill Public Library's Teen Advisory Group. During the 
+                            two years I spent in this group, I was part of the decision making and execution of events catered to teens in the library.
+                            We met biweekly to discuss ideas on how to bring more teens to the library, including an interactive
+                            sticky note board, guest speaker events which included both photography and lyric-writing workshops, and monthly game nights.
+                        </p>
+                    </div>
+                </div> 
+                <div class="exp-card">
+                    <div class="img-contain">
+                        <img class = "exp-pic" src="images/headshot.PNG" alt = "Varshaa's face"/> 
+                    </div>
+                    <div class="text">
+                        <h4 class = "exp-titles">President - Textile Design Club</h4>
+                        <p class="experience-info">
+                            For the last two years of high school, I was the President of my school’s Textile Design Club, 
+                            a club dedicated to teaching students how to knit, crochet, sew, and pick up new skills.
+                            Each week students had the opportunity to learn a new skill, and create cute and easy projects
+                            to test out their newfound skills!
+                        </p>
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div class="img-contain">
+                        <img class = "exp-pic" src="images/headshot.PNG" alt = "Varshaa's face"/> 
+                    </div>
+                    <div class="text">
+                        <h4 class = "exp-titles">Public Relations/Co-Vice President - Music Committee</h4>
+                        <p class = "experience-info">
+                            I acted as both the Public Relations and Co-Vice President at my school's Music Commitee; a commitee run by music 
+                            students to help run events for the music program. During my time in the Commitee, we ran 3 successful concerts, 
+                            followed by an online concert during the COVID-19 pandemic. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class = "footer-section">
+            <h2 id = "Contact-Me">Contact Me</h2>
+            <hr></hr>
+            <p class = "footer-info"></p>
+            <div class = "contact-buttons">
+                <a href="mailto:varshaa.maxwell@gmail.com"><img class = "contact-img" src="images/email.png" alt = "Email" /></a>
+                <a href ="https://www.linkedin.com/in/varshaa-maxwell/"><img class = "contact-img" src="images/linkedin.png" alt = "Linkedin" /></a>
+                <a href= "https://github.com/vas057"><img class = "contact-img" src="images/github.png" alt = "Github" /></button></a> 
+
+                <!-- <button class = "contact"><a href="mailto:varshaa.maxwell@gmail.com">Email</a></button> -->
+                <!-- <button class = "contact"><a href ="https://www.linkedin.com/in/varshaa-maxwell/">LinkedIn</a></button> -->
+                <!-- <button class = "contact"><a href= "https://github.com/vas057">Github</button></a> -->
+            </div>
+            
+            <!-- <p class = "footer-info">LinkedIn: www.linkedin.com/in/varshaa-maxwell/</p> -->
+            <!-- <p class = "footer-info">Github: github.com/pengpuff05</p> -->
+
+        </footer>
+
+        <!-- Prior to COVID-19, I was a member of the Richmond Hill Public Library’s Teen Advisory Group. During the two years I spent in this group, I was part of the decision making and execution of events catered to teens in the library. 
+        Every other week, I met with fellow teens to discuss ideas on how to bring more teens to the library, including an interactive 
+        sticky note board, guest speaker events, and monthly game nights. As a representative for adolescents in Richmond Hill, 
+        I spoke on what drew teens to the library, such as improving studying spaces or inviting guest speakers for poetry 
+        and photography events. -->
+        
+    </body>
+</html>
