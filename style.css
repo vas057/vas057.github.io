@@ -675,7 +675,7 @@ button:active .project-card{
 }
 
 .contact-img {
-    width: 2vw;
+    width: 35px;
     height: auto;
     filter: invert(33%) sepia(38%) saturate(261%) hue-rotate(339deg) brightness(97%) contrast(91%);
     padding: 8px;  
