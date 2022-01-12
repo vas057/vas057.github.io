@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style copy.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow:wght@100&family=Dosis:wght@600&family=Kanit:wght@100&family=Oswald&family=Poiret+One&family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -32,73 +32,87 @@
                 </h4>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <h2 id = "About-Me">About Me</h2>
             <hr></hr>
-        </section> 
-        <section>
+        </section> -->
+        <section class = "projects-section-alt">
             <h2 id = "Projects">Projects</h2>
             <hr></hr>
-            <div class="project-card">
-                <div class="project-text">
-                    <h4>Ninja Zoomies</h4>
-                    <p class = "project-basic">A 2D Multiplayer Platformer Game made with Unity</p>
-                    <p class = "project-description">Ninja Zoomies is a 2D Multiplayer Platformer game where 
-                        up to 4 players race against each other to be the first to reach the end of the map.
-                        Along the way, there are obstacles, as well as power-ups that users can pick up to help them reach the end or even slow down
-                        other players.
-                    </p>
-                    <p class = "project-description">Ninja Zoomies was made for the 2020 Durjam Hackathon and 
-                        was awarded <b>first prize!</b>
-                    </p>
-                    <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=-DTPI1vvEeI">Click for Video Demo!</a></button>
+            <div class = "project-section">
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/zomies.jpg" alt = "Ninja Zoomies"/> 
+                            <h4>Ninja Zoomies</h4>
+                            <p class = "project-description">A 2D Multiplayer Platformer Game made with Unity</p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>Ninja Zoomies</h4> -->
+                            <p class = "project-description">Ninja Zoomies is a 2D Multiplayer Platformer game where 
+                                up to 4 players race against each other to be the first to reach the end of the map.
+                                Along the way, there are obstacles, as well as power-ups that users can pick up to help them reach the end or even slow down
+                                other players.
+                            </p>
+                            <p class = "project-description">Ninja Zoomies was made for the 2020 Durjam Hackathon and 
+                                was awarded <b>first prize!</b>
+                            </p>
+                            <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=-DTPI1vvEeI">Click for Video Demo!</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-img-contain">
-                    <img class = "project-images" src="images/zomies.jpg" alt = "Ninja Zoomies"/> 
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/ASL.jpg" alt = "Hand Signal Translator"/> 
+                            <h4>ASL Hand Signal Translator</h4>
+                            <p class = "project-description">A translator that captures images of ASL hand signals
+                                and translates them into letters.
+                            </p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>ASL Hand Signal Translator</h4> -->
+                            <p class = "project-description">The ASL Translator, Ephphatha, is a translator which is able to recognize ASL hand signals of the English alphabet from an image, and translate
+                                those signals into written letters. Ephphatha was built using a Raspberry Pi and a machine learning model. The images are captured by the Raspberry Pi camera and the output letter
+                                is displayed on a Flask webapp.
+                            </p>
+                            <p class = "project-description">This project was created by 5 Software Engineering students from the University
+                                of Waterloo.
+                            </p>
+                            <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=Kypr42PMlr0">Click for Video Demo!</a></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <h4>ASL Hand Signal Translator</h4>
-                    <p class = "project-basic">A translator that captures images of ASL hand signals
-                        and translates them into letters.
-                    </p>
-                    <p class = "project-description">The ASL Translator, Ephphatha, is a translator which is able to recognize ASL hand signals of the English alphabet from an image, and translate
-                        those signals into written letters. Ephphatha was built using a Raspberry Pi and a machine learning model. The images are captured by the Raspberry Pi camera and the output letter
-                        is displayed on a Flask webapp.
-                    </p>
-                    <p class = "project-description">This project was created by 5 Software Engineering students from the University
-                        of Waterloo.
-                    </p>
-                    <button class = "viewmore"><a href = "https://www.youtube.com/watch?v=Kypr42PMlr0">Click for Video Demo!</a></button>
-                </div>
-                <div class="project-img-contain">
-                    <img class = "project-images" src="images/ASL.jpg" alt = "Hand Signal Translator"/> 
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <h4>Mental Health Chatbot</h4>
-                    <p class = "project-basic">A chatbot which provides users with
-                    mental health advice.
-                    </p>
-                    <p class = "project-description">The Mental Health Chatbot project consisted of 3 chatbots, all able to interact 
-                        with a user and provide mental healh advice. Models used included an ELIZA-based model, a Seq2Seq model made up of 2 LSTMs, 
-                        and a SOTA model. The chatbot was able to hold a simple conversation with the user by responding to questions 
-                        and providing advice.
-                    </p>
-                    <p class = "project-description">This project was created as part of the InspiritAI program.
-                    </p>
-                </div>
-                <div class="project-img-contain">
-                    <img class = "project-images" src="images/woebot.jpg" alt = "Woebot"/> 
+                <div class = "project-card">
+                    <div class="project-card-inner">
+                        <div class="front">
+                            <img class = "project-images" src="images/woebot.jpg" alt = "Woebot"/> 
+                            <h4>Mental Health Chatbot</h4>
+                            <p class = "project-description">A chatbot which provides users with
+                            mental health advice.
+                            </p>
+                            <button class = "viewmore">Hover to View More!</button>
+                        </div>
+                        <div class="back">
+                            <!-- <h4>ASL Hand Signal Translator</h4> -->
+                            <p class = "project-description">The Mental Health Chatbot project consisted of 3 chatbots, all able to interact 
+                                with a user and provide mental healh advice. Models used included an ELIZA-based model, a Seq2Seq model made up of 2 LSTMs, 
+                                and a SOTA model. The chatbot was able to hold a simple conversation with the user by responding to questions 
+                                and providing advice.
+                            </p>
+                            <p class = "project-description">This project was created as part of the InspiritAI program.
+                            </p>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </section>
         <section>
             <h2 id = "Experience">Experience</h2>
             <hr></hr>   
-            <h4 class = "pengpuff-title">Pengpuff Crochets | <em>Self-Employed</em></h4>
+            <h4>Pengpuff Crochets | <em>Self-Employed</em></h4>
             <p class = "pengpuff-info">At the start of the pandemic, I launched my long-time passion project;
                 a crochet pattern shop. 
             </p>
@@ -108,7 +122,7 @@
                 In just the first year of opening the shop, we sold over 30 patterns, and increased
                 our social media following by 500%!
             </p>
-            <h3><em>Photo Slideshow</em></h3>
+            <!-- <h3><em>Photo Slideshow</em></h3> -->
             <!-- photo slideshow :grimacing: -->
             <section class="slideshow-section">
                 <div id = "photo-slideshow">
