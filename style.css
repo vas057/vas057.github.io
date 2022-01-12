@@ -1,5 +1,5 @@
 body {
-    font-size: 15px;
+    font-size: 13px;
     background-image:  url("images/bg.jpg");
     background-color:rgba(255, 255, 255, 0.45);
     padding: 0;
@@ -11,7 +11,7 @@ section {
     /* height: 100vh; */
     background-color:rgba(255, 255, 255, 0.45);
     /* border-bottom: solid, #F8EDE3 5px; */
-    padding-bottom: 45px;
+    padding-bottom: 5px;
 }
 
 header {
@@ -69,6 +69,8 @@ li {
     padding-right: 20%;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .my-face-contain {
@@ -158,7 +160,7 @@ hr {
     height: 5px;
     background-color: #a98467;
     border: none;
-    
+    margin-bottom: 10px;    
 }
 
 html {
@@ -173,7 +175,8 @@ h4 {
     font-size: 185%;
     text-align: left;
     margin-bottom: 5px;
-
+    margin-top: 0;
+    padding-top: 0%;
     /* margin: 1vh; */
 }
 
@@ -203,8 +206,8 @@ h4 {
     box-shadow: 0px 0px 10px 10px #819157;
 }
 
-.project-img-containLhover {
-    max-width: 110%;
+.project-img-contain:hover {
+    width: 110%;
     height: auto;
 }
 
@@ -275,7 +278,9 @@ h4 {
         display:none;
     }
     li {
-        font-size: 150%;
+        font-size: 250%;
+        padding-right: 12px;
+        padding-left: 12px;
     }
     .project-card {
         flex-direction: column;
@@ -296,6 +301,9 @@ h4 {
     .pengpuff-info {
         padding-top: 30px;
         padding-bottom: 25px;
+        margin: 0;
+        /* max-width: 90%; */
+        font-size: 8%;
     }
 }
 
@@ -307,7 +315,7 @@ h4 {
     margin-right: 5%;
     text-align: center;
     padding-left: 15%;
-    max-width: 80%;
+    max-width: 90%;
     padding-right: 15%;
     padding-bottom: 20px;
 }
@@ -384,8 +392,8 @@ h3 {
     margin: 15px;
     padding-left: 3%;
     padding-right: 3%;
-    box-shadow: 0px 0px 15px #adc178;
-    background: rgb(221,229,182,0.4); ;
+    /* box-shadow: 0px 0px 15px #adc178; */
+    background: rgb(221,229,182,0.2); ;
     border-radius: 250px 250px;
     display: flex;
     flex-direction: row;
@@ -411,7 +419,7 @@ h3 {
 
 .experience-info {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px0;
+    font-size: 1.25em;
     font-weight: bolder;
     text-align: center;
     margin: 5px;
@@ -446,7 +454,7 @@ h3 {
     align-self: center;
     justify-content: center;
     margin-top: 15px;
-    padding: 0;
+    padding-top: 15px;
 }
 
 .text {
@@ -455,6 +463,7 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
 
 @media screen and (max-width: 1000px) {
     .exp-card {
@@ -476,6 +485,7 @@ h3 {
     .exp-titles{
         margin-top: 8px;
         padding-top: 10px;
+        margin-bottom: 8px;
     }
     .text {
         align-items: center;
