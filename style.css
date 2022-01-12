@@ -78,8 +78,8 @@ li {
     /* object-fit: cover; */
     height: auto;
     max-height: auto;
-    outline: 3px solid #dde5b6; 
-    outline-offset: 5px;
+    /* outline: 3px solid #dde5b6;  */
+    /* outline-offset: 5px; */
     box-shadow: 0px 0px 15px 10px #f0ead2; 
     margin: 20px;
 }
